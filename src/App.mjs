@@ -70,6 +70,7 @@ export default function Game(){
     setCurrentMove(nextMove)
   }
 
+  
   const moves = history.map((squares, move) => {
     let description;
     if (move > 0){
